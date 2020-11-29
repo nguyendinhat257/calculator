@@ -1,0 +1,55 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+#form {
+	height: 400px;
+	width: 300px;
+	background-color: #ebebeb;
+	padding-top: 15px;
+
+}
+#form > #screen {
+	background-color: white;
+	height: 80px;
+	margin: 15px;
+}
+#form > #container {
+	display: flex;
+	margin-top: 30px;
+}
+#form > #container > #board-number {
+	flex-basis: 230px;
+}
+#form > #container > #board-operator {
+	flex-basis: calc(300px - 230px);
+}
+#form > #container > #board-number > .number {
+	width: 65px;
+	height: 40px;
+}
+#form > #container > #board-operator > .operator {
+	width: 65px;
+	height: 40px;
+}
+#form > #container > #board-operator > .operator,
+#form > #container > #board-number > .number {
+	margin: 3px;
+}
+#form > #item-delete > #delete {
+	margin: 20px;
+	width: calc(100% - 40px);
+	height: 40px;
+}
+#form > #screen > * {
+	height: 50%;
+	line-height: 40px;
+	font-size: 20px;
+	font-family: Garamond, serif;
+	padding: 5px;
+}
+#form > #screen > #result {
+	text-align: right;
+	
+}
